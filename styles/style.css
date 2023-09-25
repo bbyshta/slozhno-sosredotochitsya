@@ -150,6 +150,11 @@
   gap: 20px;
 }
 
+.three-columns {
+  display: grid;
+  gap: 20px;
+}
+
 .section__title {
   color: var(--section-title-color, #ff0070);
   font-weight: bold;

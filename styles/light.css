@@ -39,4 +39,8 @@
     --hover-button-border-color: rgba(50, 49, 45, 0.4);
     --title-text-shadow-color: #ff0070;
   }
+
+  .theme_auto .header__decorative-element {
+    visibility: hidden;
+  }
 }
