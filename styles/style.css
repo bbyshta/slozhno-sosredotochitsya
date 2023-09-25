@@ -44,6 +44,7 @@
   font-size: 18px;
   text-align: center;
   background-color: transparent;
+  cursor: pointer;
   block-size: 26px;
 }
 
@@ -93,8 +94,8 @@
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   align-items: center;
-  min-block-size: 648px;
   margin: 10px 10px 0;
+  min-block-size: 648px;
 }
 
 .header__decorative-element {
@@ -236,8 +237,8 @@
 .footer {
   position: relative;
   display: grid;
-  min-block-size: 648px;
   margin: 0 10px 10px;
+  min-block-size: 648px;
 }
 
 .footer__title {
@@ -256,8 +257,8 @@
   }
 
   .header {
-    min-block-size: 984px;
     margin: 20px 20px 0;
+    min-block-size: 984px;
   }
 
   .header__title {
@@ -315,8 +316,8 @@
   }
 
   .footer {
-    min-block-size: 984px;
     margin: 0 20px 20px;
+    min-block-size: 984px;
   }
 
   .footer__title {
