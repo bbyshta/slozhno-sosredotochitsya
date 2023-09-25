@@ -1,12 +1,42 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-color: #fff1f7;
+  --bg-image: url(../images/cover-image-light.png);
+  --main-font: "IBM Plex Mono", monospace;
+  --title-color: #ffc2e6;
+  --section-title-color: #353430;
+  --title-decor-color: #353430;
+  --text-color: #353430;
+  --title-decor-bg-color: #ff8dcb;
+  --decorated-zone-color: #353430;
+  --accent-color: #ff8dcb;
+  --hover-button-border-color: rgba(50, 49, 45, 0.4);
+  --title-text-shadow-color: #ff0070;
+}
+
+.theme_light .header__decorative-element {
+  visibility: hidden;
+}
+
+.theme_light ::selection {
+  color: rgb(60, 12, 194);
+  text-shadow: 1px 0 1px black, 0 1px 1px black, 2px 1px 1px black,
+    1px 2px 1px black, 3px 2px 1px black, 2px 3px 1px black;
+  background-color: #ff0070;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff1f7;
+    --bg-image: url(../images/cover-image-light.png);
+    --main-font: "IBM Plex Mono", monospace;
+    --title-color: #ffc2e6;
+    --section-title-color: #353430;
+    --title-decor-color: #353430;
+    --text-color: #353430;
+    --title-decor-bg-color: #ff8dcb;
+    --decorated-zone-color: #353430;
+    --accent-color: #ff8dcb;
+    --hover-button-border-color: rgba(50, 49, 45, 0.4);
+    --title-text-shadow-color: #ff0070;
+  }
 }
