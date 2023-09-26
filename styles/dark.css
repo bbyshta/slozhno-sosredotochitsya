@@ -1,7 +1,6 @@
 .page.theme_dark {
   --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
-  --main-font: "IBM Plex Mono", monospace;
   --title-color: #db00ff;
   --section-title-color: #ff0070;
   --title-decor-color: #000028;
